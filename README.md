@@ -11,7 +11,7 @@ https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language
 
 ## 安裝方式
 
-1. 下載 `zh_TW.po` 及 `zh_TW.mo`。如果沒有需要自行修改譯文的需求，下載 `zh_TW.mo` 檔案即可。
+1. 下載 `zh_TW.mo` 檔案。如有需要自行修改譯文的需求，才需要下載 `zh_TW.po` (譯文檔案) 及 `YOURLS.pot` (譯文範本檔案)。
 2. 開啟自建 YOURLS 服務網站 `user` 目錄中的 `config.php`，然後編輯或新增以下常式：
     - `define( 'YOURLS_LANG', 'zh_TW' );`
 3. 將 `zh_TW.mo` 檔案上傳至 `user/languages` 目錄。
