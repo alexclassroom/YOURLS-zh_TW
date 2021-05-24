@@ -1,14 +1,13 @@
-# YOURLS-zh_TW
-YOURLS 縮址服務台灣中文語言套件
+# YOURLS-zh_TW：YOURLS 縮址服務台灣中文語言套件
 
-開源專案的語言套件完成之後，少有定時、持續維護的案例。YOURLS 找的到的台灣中文語言套件，已經多年沒有維護，加上缺漏新版本字串譯文，因此阿力獅依據台灣標準資訊用語及資訊本地化業界的台灣中文譯文樣式規範，重譯一份最新版譯文，且會與我其他 WordPress 外掛/佈景主題台灣中文語言套件一樣，持續維護下去。
+開源專案的語言套件完成之後，少有定時、持續維護的案例。YOURLS 找的到的r舊版台灣中文語言套件，已有多年沒有維護，加上缺漏新版本 YOURLS 的新增字串譯文，因此阿力獅依據台灣標準資訊用語及資訊本地化業界的台灣中文譯文樣式規範，重譯一份最新版譯文。YOURLS 會與我本地化的其他 WordPress 外掛/佈景主題台灣中文語言套件一樣，持續維護下去。
 
-請注意，這是全新翻譯版本，若有任何疑問、譯文錯誤或需要修改的地方，請與我聯絡。
+請注意，這是全新翻譯版本，若有任何疑問、譯文錯誤或需要修改的地方，請與我聯絡，例如在 [Issues] 分頁提出問題。
 
-YOURLS 官方本地化詳細資料：
+# YOURLS 官方本地化詳細資料：
 
-https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language
-
+請參考 [https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language](https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language)
+。
 ## 安裝方式
 
 1. 下載 `zh_TW.mo` 檔案。如有需要自行修改譯文的需求，才需要下載 `zh_TW.po` (譯文檔案) 及 `YOURLS.pot` (譯文範本檔案)。
