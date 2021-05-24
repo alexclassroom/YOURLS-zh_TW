@@ -6,8 +6,7 @@
 
 # YOURLS 官方本地化詳細資料：
 
-請參考 [https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language](https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language)
-。
+請參考 [https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language](https://github.com/YOURLS/YOURLS/wiki/YOURLS-in-your-language)。
 ## 安裝方式
 
 1. 下載 `zh_TW.mo` 檔案。如有需要自行修改譯文的需求，才需要下載 `zh_TW.po` (譯文檔案) 及 `YOURLS.pot` (譯文範本檔案)。
