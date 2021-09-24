@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS\n"
-"POT-Creation-Date: 2021-05-11 15:31-0700\n"
-"PO-Revision-Date: 2021-05-14 12:10-0700\n"
+"POT-Creation-Date: 2021-09-24 00:54-0700\n"
+"PO-Revision-Date: 2021-09-24 00:55-0700\n"
 "Last-Translator: Alex Lion <learnwithalex@gmail.com>\n"
 "Language-Team: Alex Lion <learnwithalex@gmail.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -20,57 +20,21 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#. Default SQL behavior
-#: admin/index.php:18 admin/index.php:48 admin/index.php:120
-#: includes/functions-html.php:240 includes/functions-html.php:252
-msgid "URL"
-msgstr "網址"
-
-#: admin/index.php:20 admin/index.php:44 admin/index.php:116
-#: includes/functions-html.php:239 includes/functions-html.php:251
-#: includes/functions-html.php:507 includes/functions-html.php:645
-#: yourls-infos.php:217
-msgid "Short URL"
-msgstr "短網址"
-
-#: admin/index.php:40 includes/functions-html.php:238
-msgid "All fields"
-msgstr "全部欄位"
-
-#: admin/index.php:52 admin/index.php:124 includes/functions-html.php:241
-#: includes/functions-html.php:253 includes/functions-html.php:507
-msgid "Title"
-msgstr "標題"
-
-#: admin/index.php:56 admin/index.php:132
-msgid "IP Address"
-msgstr "IP 位址"
-
-#: admin/index.php:60
+#: admin/index.php:33
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
 msgstr "搜尋關鍵字: <strong>%1$s</strong>，搜尋範圍: <strong>%2$s</strong>。"
 
-#: admin/index.php:128 includes/functions-html.php:254
-#: includes/functions-html.php:647
-msgid "Date"
-msgstr "建立日期"
-
-#: admin/index.php:136 includes/functions-html.php:256
-#: includes/functions-html.php:649
-msgid "Clicks"
-msgstr "點擊次數"
-
-#: admin/index.php:215 admin/index.php:226 admin/index.php:237
+#: admin/index.php:161 admin/index.php:172 admin/index.php:183
 #, php-format
 msgid "Short URL created, but could not redirect to %s !"
 msgstr "短網址已建立，但無法重新導向至 %s！"
 
-#: admin/index.php:247
+#: admin/index.php:193
 msgid "Unknown \"Share\" bookmarklet"
 msgstr "未知的 [分享] 書籤小工具"
 
-#: admin/index.php:300
+#: admin/index.php:246
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
@@ -79,13 +43,13 @@ msgstr ""
 "顯示第 <strong>%1$s</strong> 到第 <strong class=\"increment\">%2$s</strong> "
 "個網址，總計 <strong class=\"increment\">%3$s</strong> 個網址。"
 
-#: admin/index.php:302
+#: admin/index.php:248
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] "總計 %s 個點擊次數"
 
-#: admin/index.php:305
+#: admin/index.php:251
 #, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
@@ -94,7 +58,7 @@ msgstr ""
 "目前總計追蹤 <strong class=\"increment\">%1$s</strong> 個連結，點擊次數總計 "
 "<strong>%2$s</strong> 次。"
 
-#: admin/index.php:366
+#: admin/index.php:312
 msgid "No URL"
 msgstr "找不到符合條件的網址"
 
@@ -149,7 +113,7 @@ msgstr "外掛已啟用"
 msgid "Plugin has been deactivated"
 msgstr "外掛已停用"
 
-#: admin/plugins.php:58 includes/functions-html.php:771
+#: admin/plugins.php:58 includes/functions-html.php:773
 msgid "Manage Plugins"
 msgstr "管理外掛"
 
@@ -537,6 +501,40 @@ msgstr "不正確的資料庫組態或無法連線至資料庫"
 msgid "Fatal error"
 msgstr "發生嚴重錯誤"
 
+#: includes/Views/AdminParams.php:57 includes/functions-html.php:239
+msgid "All fields"
+msgstr "全部欄位"
+
+#: includes/Views/AdminParams.php:58 includes/functions-html.php:240
+#: includes/functions-html.php:252 includes/functions-html.php:508
+#: includes/functions-html.php:646 yourls-infos.php:217
+msgid "Short URL"
+msgstr "短網址"
+
+#: includes/Views/AdminParams.php:59 includes/functions-html.php:241
+#: includes/functions-html.php:253
+msgid "URL"
+msgstr "網址"
+
+#: includes/Views/AdminParams.php:60 includes/functions-html.php:242
+#: includes/functions-html.php:254 includes/functions-html.php:508
+msgid "Title"
+msgstr "標題"
+
+#: includes/Views/AdminParams.php:61
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: includes/Views/AdminParams.php:62 includes/functions-html.php:255
+#: includes/functions-html.php:648
+msgid "Date"
+msgstr "建立日期"
+
+#: includes/Views/AdminParams.php:63 includes/functions-html.php:257
+#: includes/functions-html.php:650
+msgid "Clicks"
+msgstr "點擊次數"
+
 #: includes/auth.php:53
 #, php-format
 msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
@@ -568,316 +566,316 @@ msgstr "無效的使用者名稱或密碼"
 msgid "Please log in"
 msgstr "請登入以進行操作"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:638
 msgid "Unauthorized action or expired link"
 msgstr "未經授權的操作或過期連結"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:638
 msgid "Error"
 msgstr "發生錯誤"
 
-#: includes/functions-html.php:144
+#: includes/functions-html.php:145
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "%s 次查詢"
 
-#: includes/functions-html.php:153
+#: includes/functions-html.php:154
 #, php-format
 msgid "Powered by %s"
 msgstr "本站採用 %s 建置"
 
-#: includes/functions-html.php:186
+#: includes/functions-html.php:187
 msgid "Enter the URL"
 msgstr "輸入網址"
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Optional "
 msgstr "選用"
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Custom short URL"
 msgstr "自訂短網址"
 
-#: includes/functions-html.php:191
+#: includes/functions-html.php:192
 msgid "Shorten The URL"
 msgstr "縮短網址"
 
 #. First search control: text to search
-#: includes/functions-html.php:236
+#: includes/functions-html.php:237
 msgid "Search for"
 msgstr "搜尋關鍵字:"
 
-#: includes/functions-html.php:242 includes/functions-html.php:255
-#: includes/functions-html.php:648
+#: includes/functions-html.php:243 includes/functions-html.php:256
+#: includes/functions-html.php:649
 msgid "IP"
 msgstr "IP 位址"
 
-#: includes/functions-html.php:244
+#: includes/functions-html.php:245
 msgid "Search in"
 msgstr "搜尋範圍:"
 
 #. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
-#: includes/functions-html.php:246
+#: includes/functions-html.php:247
 #, php-format
 msgid "Search for %1$s in %2$s"
 msgstr "搜尋關鍵字: %1$s，搜尋範圍: %2$s"
 
-#: includes/functions-html.php:258
+#: includes/functions-html.php:259
 msgid "Sort by"
 msgstr "排序方式"
 
-#: includes/functions-html.php:261
+#: includes/functions-html.php:262
 msgid "Ascending"
 msgstr "升冪"
 
-#: includes/functions-html.php:262
+#: includes/functions-html.php:263
 msgid "Descending"
 msgstr "降冪"
 
-#: includes/functions-html.php:264
+#: includes/functions-html.php:265
 msgid "Sort order"
 msgstr "排序方式"
 
 #. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
-#: includes/functions-html.php:266
+#: includes/functions-html.php:267
 #, php-format
 msgid "Order by %1$s %2$s"
 msgstr "排序依據: %1$s %2$s"
 
 #. Third search control: Show XX rows
 #. //translators: "Show <text field> rows"
-#: includes/functions-html.php:271
+#: includes/functions-html.php:272
 msgid "Number of rows to show"
 msgstr "顯示結果數量"
 
-#: includes/functions-html.php:272
+#: includes/functions-html.php:273
 #, php-format
 msgid "Show %s rows"
 msgstr "每頁顯示 %s 筆結果"
 
-#: includes/functions-html.php:277
+#: includes/functions-html.php:278
 msgid "more"
 msgstr "多於"
 
-#: includes/functions-html.php:278
+#: includes/functions-html.php:279
 msgid "less"
 msgstr "少於"
 
-#: includes/functions-html.php:280
+#: includes/functions-html.php:281
 msgid "Show links with"
 msgstr "顯示連結是"
 
-#: includes/functions-html.php:281
+#: includes/functions-html.php:282
 msgid "Number of clicks"
 msgstr "點擊次數"
 
 #. //translators: "Show links with <more/less> than <text field> clicks"
-#: includes/functions-html.php:283
+#: includes/functions-html.php:284
 #, php-format
 msgid "Show links with %1$s than %2$s clicks"
 msgstr "顯示點擊次數 %1$s %2$s 次的網址"
 
-#: includes/functions-html.php:288
+#: includes/functions-html.php:289
 msgid "before"
 msgstr "早於"
 
-#: includes/functions-html.php:289
+#: includes/functions-html.php:290
 msgid "after"
 msgstr "晚於"
 
-#: includes/functions-html.php:290
+#: includes/functions-html.php:291
 msgid "between"
 msgstr "介於"
 
-#: includes/functions-html.php:292
+#: includes/functions-html.php:293
 msgid "Show links created"
 msgstr "顯示短網址建立日期"
 
-#: includes/functions-html.php:293
+#: includes/functions-html.php:294
 msgid "Select a date"
 msgstr "選取日期"
 
-#: includes/functions-html.php:295
+#: includes/functions-html.php:296
 msgid "Select an end date"
 msgstr "選取結束日期"
 
 #. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
-#: includes/functions-html.php:297
+#: includes/functions-html.php:298
 #, php-format
 msgid "Show links created %1$s %2$s %3$s %4$s"
 msgstr "顯示建立日期 %1$s %2$s %3$s %4$s 的短網址"
 
-#: includes/functions-html.php:301
+#: includes/functions-html.php:302
 msgid "Search"
 msgstr "搜尋"
 
-#: includes/functions-html.php:303
+#: includes/functions-html.php:304
 msgid "Clear"
 msgstr "清除"
 
-#: includes/functions-html.php:323
+#: includes/functions-html.php:324
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
 msgstr[0] "總計 %s 頁"
 
-#: includes/functions-html.php:331
+#: includes/functions-html.php:332
 msgid "Go to First Page"
 msgstr "前往第一頁"
 
-#: includes/functions-html.php:331
+#: includes/functions-html.php:332
 msgid "&laquo; First"
 msgstr "&laquo; 第一頁"
 
-#: includes/functions-html.php:345
+#: includes/functions-html.php:346
 msgid "Go to Last Page"
 msgstr "前往最後一頁"
 
-#: includes/functions-html.php:345
+#: includes/functions-html.php:346
 msgid "Last &raquo;"
 msgstr "最後一頁 &raquo;"
 
-#: includes/functions-html.php:390
+#: includes/functions-html.php:391
 msgid "Your short link"
 msgstr "你的短網址"
 
-#: includes/functions-html.php:392 yourls-infos.php:548
+#: includes/functions-html.php:393 yourls-infos.php:548
 msgid "Quick Share"
 msgstr "快速分享"
 
-#: includes/functions-html.php:424
+#: includes/functions-html.php:425
 msgid "Long link"
 msgstr "原始網址"
 
-#: includes/functions-html.php:426 includes/functions-html.php:542
-#: includes/functions-html.php:543
+#: includes/functions-html.php:427 includes/functions-html.php:543
+#: includes/functions-html.php:544
 msgid "Stats"
 msgstr "統計資料"
 
-#: includes/functions-html.php:440
+#: includes/functions-html.php:441
 msgid "Share with"
 msgstr "分享網址"
 
-#: includes/functions-html.php:441
+#: includes/functions-html.php:442
 msgid "Tweet this!"
 msgstr "分享至 Twitter"
 
-#: includes/functions-html.php:442
+#: includes/functions-html.php:443
 msgid "Share on Facebook"
 msgstr "分享至 Fackbook"
 
-#: includes/functions-html.php:507 yourls-infos.php:235
+#: includes/functions-html.php:508 yourls-infos.php:235
 msgid "Long URL"
 msgstr "原始網址"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:508
 msgid "Save"
 msgstr "儲存"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:508
 msgid "Save new values"
 msgstr "儲存新值"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:508
 msgid "Cancel"
 msgstr "取消"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:508
 msgid "Cancel editing"
 msgstr "取消編輯"
 
-#: includes/functions-html.php:509
+#: includes/functions-html.php:510
 msgid "Error, URL not found"
 msgstr "發生錯誤，找不到符合條件的網址"
 
 #. endif do log redirect
-#: includes/functions-html.php:548 includes/functions-html.php:549
+#: includes/functions-html.php:549 includes/functions-html.php:550
 #: yourls-infos.php:245 yourls-infos.php:546
 msgid "Share"
 msgstr "分享"
 
-#: includes/functions-html.php:555 includes/functions-html.php:556
+#: includes/functions-html.php:556 includes/functions-html.php:557
 msgid "Edit"
 msgstr "編輯"
 
-#: includes/functions-html.php:562 includes/functions-html.php:563
+#: includes/functions-html.php:563 includes/functions-html.php:564
 msgid "Delete"
 msgstr "刪除"
 
-#: includes/functions-html.php:584
+#: includes/functions-html.php:585
 msgid "Not a common link"
 msgstr "非常用網址"
 
-#: includes/functions-html.php:646
+#: includes/functions-html.php:647
 msgid "Original URL"
 msgstr "原始網址"
 
-#: includes/functions-html.php:650
+#: includes/functions-html.php:651
 msgid "Actions"
 msgstr "可用操作"
 
-#: includes/functions-html.php:717
+#: includes/functions-html.php:718
 msgid "Username"
 msgstr "使用者名稱"
 
-#: includes/functions-html.php:721
+#: includes/functions-html.php:722
 msgid "Password"
 msgstr "密碼"
 
-#: includes/functions-html.php:728
+#: includes/functions-html.php:730
 msgid "Login"
 msgstr "登入"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:751
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "<strong>%s</strong>，你好"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:751
 msgid "Logout"
 msgstr "登出"
 
-#: includes/functions-html.php:753
+#: includes/functions-html.php:755
 msgid "Help"
 msgstr "使用說明"
 
-#: includes/functions-html.php:760
+#: includes/functions-html.php:762
 msgid "Go to the admin interface"
 msgstr "前往 [管理介面]"
 
-#: includes/functions-html.php:761
+#: includes/functions-html.php:763
 msgid "Admin interface"
 msgstr "管理介面"
 
-#: includes/functions-html.php:767
+#: includes/functions-html.php:769
 msgid "Tools"
 msgstr "工具"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:853
 #, php-format
 msgid "Page \"%1$s\" not found"
 msgstr "%1$s 找不到頁面"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:853
 msgid "Not found"
 msgstr "找不到符合條件的項目"
 
 #. Dummy returns, to initialize l10n strings used in the calendar
-#: includes/functions-html.php:897 includes/functions-html.php:902
+#: includes/functions-html.php:899 includes/functions-html.php:904
 msgid "Today"
 msgstr "今天"
 
-#: includes/functions-html.php:898 includes/functions-html.php:903
+#: includes/functions-html.php:900 includes/functions-html.php:905
 msgid "Close"
 msgstr "關閉"
 
-#: includes/functions-html.php:918
+#: includes/functions-html.php:920
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr "<a href=\"%s\" target=\"_blank\">YOURLS %s 版</a>已發佈，請立即更新！"
 
-#: includes/functions-html.php:956
+#: includes/functions-html.php:935
 msgid "Drag to your toolbar!"
 msgstr "請將書籤小工具拖曳至瀏覽器書籤列。"
 
@@ -1251,67 +1249,67 @@ msgstr "網址儲存至資料庫發生錯誤"
 msgid "%s already exists in database"
 msgstr "%s 已存在於資料庫中"
 
-#: includes/functions-shorturls.php:309
+#: includes/functions-shorturls.php:307
 msgid "Long URL or Short URL cannot be blank"
 msgstr "原始網址或短網址不能留空"
 
-#: includes/functions-shorturls.php:339
+#: includes/functions-shorturls.php:343
 msgid "Link updated in database"
 msgstr "網址已於資料庫中完成更新"
 
 #. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
-#: includes/functions-shorturls.php:342
+#: includes/functions-shorturls.php:346
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
 msgstr "更新 %s 時發生錯誤 (短網址: %s )"
 
-#: includes/functions-shorturls.php:348
+#: includes/functions-shorturls.php:352
 msgid "URL or keyword already exists in database"
 msgstr "網址或關鍵字已存在於資料庫中"
 
-#: includes/functions.php:331
+#: includes/functions.php:354
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr "如果 10 秒後沒有完成重新導向，請點擊<a href=\"%s\">這裡</a>"
 
-#: includes/functions.php:340
+#: includes/functions.php:363
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr "請點擊<a href=\"%s\">這裡</a>"
 
-#: includes/functions.php:579
+#: includes/functions.php:603
 msgid "Too many URLs added too fast. Slow down please."
 msgstr "在短時間內新增太多網址，請放慢新增網址的速度。"
 
-#: includes/functions.php:579
+#: includes/functions.php:603
 msgid "Too Many Requests"
 msgstr "太多要求"
 
 #. https://www.youtube.com/watch?v=Xw-m4jEY-Ns
-#: includes/functions.php:1001
+#: includes/functions.php:1030
 msgid "Service temporarily unavailable"
 msgstr "服務暫時無法使用"
 
-#: includes/functions.php:1002
+#: includes/functions.php:1031
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr "這個網站的服務目前正在進行定期維護。"
 
-#: includes/functions.php:1003
+#: includes/functions.php:1032
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
 "維護工作不會持續太久，感謝你的耐心等候，我們同時也為帶來的不便致上最深的歉意"
 
-#: includes/functions.php:1129
+#: includes/functions.php:1158
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "從 %2$s 版開始，%1$s <strong>已淘汰不用</strong>，請改用 %3$s。"
 
-#: includes/functions.php:1131
+#: includes/functions.php:1160
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
