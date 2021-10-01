@@ -16,4 +16,4 @@
 
 ## 使用授權
 
-使用與 YOURLS 專案相同的 MIT 授權。
+使用與 YOURLS 專案相同的 [MIT 授權](https://opensource.org/licenses/MIT)。
