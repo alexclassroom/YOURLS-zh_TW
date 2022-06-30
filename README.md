@@ -10,7 +10,7 @@
 
 ## 譯文樣式參考依據
 
-請參考〈[台灣正體中文資訊本地化譯文樣式指南](https://tw.wordpress.org/team/handbook/handbook/zh-tw-localization-style-guide/){:target="_blank"}〉。
+請參考〈[台灣正體中文資訊本地化譯文樣式指南](https://tw.wordpress.org/team/handbook/handbook/zh-tw-localization-style-guide/)〉。
 
 ## 安裝方式
 
