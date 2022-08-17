@@ -6,7 +6,8 @@
 
 # YOURLS 官方本地化詳細資料：
 
-請參考這份[官方線上說明](https://docs.yourls.org/guide/extend/languages.html)。
+- 請參考這份[官方線上說明](https://docs.yourls.org/guide/extend/languages.html)。
+- 如需取得 YOURLS 目前提供的其他語言套件，請點擊這個[連結](https://github.com/YOURLS/awesome-yourls#translations)。
 
 ## 譯文樣式參考依據
 
