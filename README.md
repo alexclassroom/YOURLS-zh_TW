@@ -3,6 +3,15 @@
 
 請注意，這是全新翻譯版本，若有任何疑問、譯文錯誤或需要修改的地方，請在這個存放庫的 [[Discussions](https://github.com/alexclassroom/YOURLS-zh_TW/discussions)] 分頁以**新增討論串**方式提出。
 
+# 贊助阿力獅的全職社群資訊本地化工作
+🎁 贊助阿力獅的全職本地化工作：[藍新金流](https://suo.fyi/donate-alexlion-blue)
+
+🧧 海外人士贊助阿力獅的全職本地化工作：[台灣 PayPal 帳號](https://suo.fyi/donate-alexlion-paypal)，僅限**台灣以外**國家/地區 PayPal 帳號可以贊助
+
+🎖️ 懇請**每年贊助新台幣 1200 元/美金 40 元等值或倍數金額**
+
+🎗️ **每年 365 人/份贊助**，讓阿力獅的全職社群本地化工作走的更遠更久
+
 # YOURLS 官方本地化詳細資料：
 - 請參考這份[官方線上說明](https://yourls.org/docs/guide/extend/languages.html)。
 - 如需取得 YOURLS 開發者目前提供的其他語言套件，請點擊這個[連結](https://github.com/YOURLS/awesome#translations)。
@@ -18,12 +27,3 @@
 
 ## 使用授權
 使用與 YOURLS 專案相同的 [MIT 授權](https://opensource.org/licenses/MIT)。
-
-# 贊助阿力獅的全職社群資訊本地化工作
-🎁 贊助阿力獅的全職本地化工作：[藍新金流](https://suo.fyi/donate-alexlion-blue)
-
-🧧 海外人士贊助阿力獅的全職本地化工作：[台灣 PayPal 帳號](https://suo.fyi/donate-alexlion-paypal)，僅限**台灣以外**國家/地區 PayPal 帳號可以贊助
-
-🎖️ 懇請**每年贊助新台幣 1200 元/美金 40 元等值或倍數金額**
-
-🎗️ **每年 365 人/份贊助**，讓阿力獅的全職社群本地化工作走的更遠更久
