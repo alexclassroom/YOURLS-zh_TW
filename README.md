@@ -12,7 +12,7 @@
 
 # YOURLS 官方本地化詳細資料：
 - 請參考這份[官方線上說明](https://yourls.org/docs/guide/extend/languages.html)。
-- 如需取得 YOURLS 開發者目前提供的其他語言套件，請點擊這個[連結](https://github.com/YOURLS/awesome#translations)。
+- 如需取得 YOURLS 開發者目前提供的其他語言套件，請點擊這個[連結](https://github.com/YOURLS/awesome#translations)。請注意，阿力獅全新重譯本地化的台灣漢文語言套件 GitHub 存放庫 (就是你現在看到的這一個)，名列 YOURLS 官方 GitHub 存放庫中。
 
 ## 譯文樣式參考依據
 請參考〈[台灣正體中文資訊本地化譯文樣式指南](https://tw.wordpress.org/team/handbook/handbook/zh-tw-localization-style-guide/)〉。
