@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS\n"
-"POT-Creation-Date: 2025-04-04 23:09-0700\n"
-"PO-Revision-Date: 2025-04-04 23:10-0700\n"
+"POT-Creation-Date: 2025-08-03 00:09-0700\n"
+"PO-Revision-Date: 2025-08-03 00:11-0700\n"
 "Last-Translator: Alex Lion <learnwithalex@gmail.com>\n"
 "Language-Team: Alex Lion <learnwithalex@gmail.com>\n"
 "Language: zh_TW\n"
@@ -32,7 +32,15 @@ msgstr "短網址已建立，但無法重新導向至 %s！"
 msgid "Unknown \"Share\" bookmarklet"
 msgstr "未知的 [分享] 書籤小工具"
 
-#: admin/index.php:246
+#: admin/index.php:247
+msgid "No URLs."
+msgstr "找不到符合條件的網址。"
+
+#: admin/index.php:249
+msgid "Try being less specific"
+msgstr "請嘗試使用較少條件。"
+
+#: admin/index.php:251
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
@@ -41,13 +49,13 @@ msgstr ""
 "顯示第 <strong>%1$s</strong> 到第 <strong class=\"increment\">%2$s</strong> "
 "個網址，總計 <strong class=\"increment\">%3$s</strong> 個網址。"
 
-#: admin/index.php:248
+#: admin/index.php:253
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] "總計 %s 個點擊次數"
 
-#: admin/index.php:251
+#: admin/index.php:257
 #, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, "
@@ -56,7 +64,7 @@ msgstr ""
 "目前總計追蹤 <strong class=\"increment\">%1$s</strong> 個連結，點擊次數總計 "
 "<strong>%2$s</strong> 次。"
 
-#: admin/index.php:312
+#: admin/index.php:318
 msgid "No URL"
 msgstr "找不到符合條件的網址"
 

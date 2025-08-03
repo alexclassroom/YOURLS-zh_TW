@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS\n"
-"POT-Creation-Date: 2025-04-04 23:09-0700\n"
+"POT-Creation-Date: 2025-08-03 00:09-0700\n"
 "PO-Revision-Date: 2014-01-11 11:51+0100\n"
 "Last-Translator: Alex Lion <learnwithalex@gmail.com>\n"
 "Language-Team: Alex Lion <learnwithalex@gmail.com>\n"
@@ -33,28 +33,36 @@ msgstr ""
 msgid "Unknown \"Share\" bookmarklet"
 msgstr ""
 
-#: admin/index.php:246
+#: admin/index.php:247
+msgid "No URLs."
+msgstr ""
+
+#: admin/index.php:249
+msgid "Try being less specific"
+msgstr ""
+
+#: admin/index.php:251
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
 "of <strong class=\"increment\">%3$s</strong> URLs"
 msgstr ""
 
-#: admin/index.php:248
+#: admin/index.php:253
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/index.php:251
+#: admin/index.php:257
 #, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, "
 "<strong>%2$s</strong> clicks, and counting!"
 msgstr ""
 
-#: admin/index.php:312
+#: admin/index.php:318
 msgid "No URL"
 msgstr ""
 
