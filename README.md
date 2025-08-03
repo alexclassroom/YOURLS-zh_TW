@@ -1,4 +1,4 @@
-# YOURLS 1.10.1 縮址服務台灣漢文語言套件
+# YOURLS 1.10.2 縮址服務台灣漢文語言套件
 開源專案的語言套件完成之後，少有定時、持續維護的案例。之前找的到的 [YOURLS](https://github.com/YOURLS/YOURLS) 舊版台灣漢文語言套件，已有多年沒有維護，加上缺漏新版本 YOURLS 的新增字串譯文，因此阿力獅依據台灣標準資訊用語及資訊本地化業界的[台灣漢文譯文樣式規範](https://tw.wordpress.org/team/handbook/handbook/zh-tw-localization-style-guide/)，**全新重譯**一份最新版譯文。YOURLS 會與阿力獅本地化的其他 WordPress 外掛/佈景主題台灣中文語言套件一樣，持續維護下去。
 
 請注意，這是全新翻譯版本，若有任何疑問、譯文錯誤或需要修改的地方，請在這個存放庫的 [[Discussions](https://github.com/alexclassroom/YOURLS-zh_TW/discussions)] 分頁以**新增討論串**方式提出。
